@@ -5,5 +5,5 @@ Tb geretente rank=
 
 return 
 	
-	var = TbGerentexs
+	var = "TbGerentexs"
 		filter(dlocal[cidade])
