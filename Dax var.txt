@@ -1,0 +1,9 @@
+Tb geretente rank= 
+
+	Rankx(dnome[gerente]), 
+		[05 Total de venda])
+
+return 
+	
+	var = TbGerentexs
+		filter(dlocal[cidade])
