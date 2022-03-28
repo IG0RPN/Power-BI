@@ -1,0 +1,9 @@
+
+Total do Desconto = 
+	SUMX(
+    		fVendas,
+    	
+			[05 Total Venda Bruto] * ( 
+	
+		fVendas[Desconto] / 100)
+)

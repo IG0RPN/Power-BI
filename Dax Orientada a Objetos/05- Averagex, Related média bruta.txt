@@ -1,0 +1,8 @@
+
+Média Bruta por Item = 
+	AVERAGEX(
+    		fVendas,
+    			fVendas[Quantidade] * 
+	RELATED(
+		dProduto[Valor Unitario])
+)

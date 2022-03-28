@@ -1,0 +1,11 @@
+
+Total Venda Bruto = 
+	
+	SUMX(
+    		fVendas,
+    			fVendas[Quantidade] * 
+	RELATED(	
+		dProduto[Valor Unitario])
+)
+
+------ Related coluna que contém os valores que você deseja recuperar.

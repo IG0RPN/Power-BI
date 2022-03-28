@@ -1,0 +1,6 @@
+
+Quantidade Total = 
+	
+	SUM(
+		fVendas[Quantidade]
+)

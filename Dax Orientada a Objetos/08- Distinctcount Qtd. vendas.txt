@@ -1,0 +1,6 @@
+
+Quantidade de Vendas = 
+	
+	DISTINCTCOUNT(
+    		fVendas[idNota]
+)

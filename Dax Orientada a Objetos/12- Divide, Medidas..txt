@@ -1,0 +1,8 @@
+
+Margem de Lucro(%) =
+ 
+	DIVIDE(
+    		[14 Receita Líquida],
+    			[05 Total Venda Bruto],0
+)
+

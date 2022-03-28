@@ -1,0 +1,18 @@
+
+Receita Líquida = 
+	
+	VAR
+    		vTotalVendaBruto = 
+        		[05 Total Venda Bruto] 
+
+	VAR
+    		vDespesasCusto = (
+         	[07 Total do Custo] + [02 Frete Total] 
+	+ 	[13 Total do Desconto] ---- Medidas Dax já criada.
+)
+
+	RETURN
+
+    	vTotalVendaBruto - vDespesasCusto 
+
+------ Foi usado VAR para melhor o entendimento da dax e para agilizar o processo de medida. 

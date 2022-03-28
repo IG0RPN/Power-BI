@@ -1,0 +1,8 @@
+
+Quantidade Máxima por Item = 
+
+	MAX(
+		fVendas[Quantidade]
+)
+
+----- Dax max tem como parâmetro coluna seguinte de expressão 

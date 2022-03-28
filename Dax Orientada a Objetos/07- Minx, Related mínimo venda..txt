@@ -1,0 +1,9 @@
+
+Mínimo Item de Venda = 
+	
+	MINX(
+    		fVendas,
+    			fVendas[Quantidade] * 
+	RELATED(
+		dProduto[Valor Unitario])
+)

@@ -1,0 +1,10 @@
+
+Máximo Item de Venda = 
+	MAXX(
+    		fVendas,
+    			fVendas[Quantidade] * 
+	RELATED(	
+		dProduto[Valor Unitario])
+)
+
+------ Função ma(XX) tem como parâmetro tabela e expressão. 

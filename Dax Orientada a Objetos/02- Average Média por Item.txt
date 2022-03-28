@@ -1,0 +1,5 @@
+
+Qtde Média por Item de Venda = 
+	AVERAGE(
+    		fVendas[Quantidade]
+)
