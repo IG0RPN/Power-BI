@@ -1,0 +1,9 @@
+VAR VVendas =
+CALCULATE(
+    [57 Vendas Ano Atual],
+    DATEADD( dCalendario[Data], -1, YEAR)
+)
+
+RETURN
+
+IF(ISBLANK( VVendas ), 0, VVendas)

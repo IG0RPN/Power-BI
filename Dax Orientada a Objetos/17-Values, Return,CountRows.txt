@@ -1,0 +1,6 @@
+var TbValues = VALUES( dLocal[País] )
+RETURN
+
+COUNTROWS( TbValues )
+
+--- Retorno de medida para definição da variavel

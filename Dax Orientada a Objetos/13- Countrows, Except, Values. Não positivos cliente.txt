@@ -1,0 +1,14 @@
+
+Clientes nao Positivados = 
+	COUNTROWS(
+    		EXCEPT(
+        		VALUES( 
+				dCliente[idCliente] ), 
+
+--Clientes no geral
+        		VALUES( 
+
+				fVendas[Cliente] )     
+--Clientes que compraram
+    )
+)

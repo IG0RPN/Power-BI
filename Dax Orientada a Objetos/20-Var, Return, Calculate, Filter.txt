@@ -1,0 +1,15 @@
+var TbGerentes = ALL(dVendedor[Gerente])
+
+RETURN
+
+CALCULATE(
+    [05 Total Venda Bruto],
+
+   FILTER(
+        TbGerentes,
+        [51 Ranking Gerentes] = 1
+    ) 
+
+   -- dVendedor[Gerente] = "Carmem"
+)
+-- Classificação Rank Nome Vendedor

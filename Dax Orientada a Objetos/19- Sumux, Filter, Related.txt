@@ -1,0 +1,8 @@
+SUMX(
+    FILTER(
+        fVendas,
+        RELATED(dCliente[Classificacao]) = "A"
+    )
+    ,
+    [02 Frete Total]
+) ---Classificação por Categoria

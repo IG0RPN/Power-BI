@@ -1,0 +1,9 @@
+SWITCH(
+    FIRSTNONBLANK(TbMedidas[Codigo], "BRT"),
+    "BRT", [20 America do Norte Vendas],
+    "QTC", [21 America do Norte Clientes Positivados],
+    "QTV", [22 America do Norte Quantidade de Vendas],
+    "LIQ", [23 America do Norte Receita Líquida]
+)
+
+----- Inserção de Dados, retornar por botão usando as SIGLAS a cima. 

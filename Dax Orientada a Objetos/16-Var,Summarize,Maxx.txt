@@ -1,0 +1,16 @@
+var TbAux =
+SUMMARIZE(
+    dLocal,
+    dLocal[País],
+    "Lucro (%)",
+    [15 Margem de Lucro(%)]
+)
+
+RETURN
+
+MAXX(
+    TbAux,
+    [Lucro (%)]
+)
+
+---- Usando um tabela não relacionada 

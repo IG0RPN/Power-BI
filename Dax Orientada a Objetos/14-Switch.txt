@@ -1,0 +1,12 @@
+Classificacao do Produto(Receita) = 
+SWITCH(
+    TRUE(),
+    [14 Receita Líquida] > 4000000, "Excelente",
+    [14 Receita Líquida] > 3000000, "Muito Bom",
+    [14 Receita Líquida] > 2000000, "Bom",
+    [14 Receita Líquida] > 1000000, "Satisfatório",
+    [14 Receita Líquida] > 700000, "Regular",
+    [14 Receita Líquida] > 600000, "Avaliar",
+    [14 Receita Líquida] > 400000, "Atenção",
+    "Ruim"
+)

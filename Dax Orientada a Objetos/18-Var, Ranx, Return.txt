@@ -1,0 +1,8 @@
+var TbGerentes = ALL(dVendedor[Gerente])
+
+RETURN
+
+RANKX(
+    TbGerentes,
+    [05 Total Venda Bruto]
+)

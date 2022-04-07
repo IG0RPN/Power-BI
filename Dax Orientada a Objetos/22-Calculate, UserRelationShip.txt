@@ -1,0 +1,9 @@
+CALCULATE(
+    [05 Total Venda Bruto],
+
+    USERELATIONSHIP(
+        fVendas[Data de Faturamento],
+        dCalendario[Data]
+    )
+
+) * -1

@@ -1,0 +1,8 @@
+64 Receita Líquida PY = 
+
+CALCULATE(
+
+    [14 Receita Líquida],
+
+    SAMEPERIODLASTYEAR(dCalendario[Data])
+) 
